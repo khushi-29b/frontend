@@ -1,0 +1,149 @@
+.first
+{
+    width:200px;
+    height:90px;
+    background-color: rgb(246, 249, 249);
+    border: 1px solid;
+}
+.second{
+    width:200px;
+    height:30px;
+    background-color: rgb(242, 146, 78);
+}
+#chakra
+{
+     width:30px;
+    height:30px;
+    background-image:url("../assets/ashok-chakra.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.third{
+    width:200px;
+    height:30px;
+    background-color: rgb(250, 249, 248);
+}
+.fourth{
+    width:200px;
+    height:30px;
+    background-color: rgb(22, 241, 66);
+}
+#blue
+{
+    width: 100px;
+   height: 40px ;
+   background-color: rgb(42, 59, 243);
+}
+.red{
+   width: 200px;
+   height:10px ;
+   background-color: rgba(245, 5, 5, 0.5);
+}
+.white{
+   width: 200px;
+   height:10px ;
+    background-color: rgba(249, 246, 246, 0.5);
+}
+.cred{
+    width:50px;
+   height:90px ;
+   background-color: rgb(252, 10, 10);
+}
+.cwhite{
+    width:120px;
+   height:70px ;
+   background-image:url(../assets/Canada\ Flag.png);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: rgb(252, 252, 252);
+}
+.ablue{
+    width:40px;
+    height: 30px;
+    background-color: blue;
+}
+.dyellow{
+    width:50px;
+    height: 10px;
+    background-color: rgb(237, 241, 21);
+}
+.ddyellow{
+    width:10px;
+    height: 10px;
+    background-color: rgb(237, 241, 21);
+}
+.awhite{
+    width:10px;
+    height: 30px;
+    background-color: rgb(237, 241, 21);
+}
+.ared{
+    width:20px;
+    height: 30px;
+    background-color: rgb(247, 16, 20);
+}
+.dred{
+      width:20px;
+    height: 10px;
+    background-color: rgb(247, 16, 20);
+}
+.aablue{
+    width:120px;
+    height: 30px;
+    background-color: blue;
+}
+.dddyellow{
+     width:120px;
+      height: 10px;
+    background-color: rgb(237, 241, 21);
+}
+.aaared{
+    width:200px;
+    height:15px;
+     background-color: rgb(247, 16, 20);
+}
+#usflag{
+    width: 40%;
+    height: 50%;
+    background-image: url(../assets/usa\ flag.png);
+    background-size: cover;
+}
+.bgreen{
+    width: 200px;
+    height: 90px;
+    background-color: green;
+}
+.bred{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 60px;
+}
+.green{
+    width: 100px;
+    height: 90px;
+    background-color: rgba(4, 163, 4, 0.5);
+}
+.sym{
+   background-image:url("../assets/algeria_flag-removebg-preview.png");
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.bengreen{
+    width: 60px;
+    height:90px;
+    background-color: green;
+}
+.benyellow{
+    width: 140px;
+    height:45px;
+    background-color: rgb(226, 251, 4);
+}
+.benred{
+    width: 140px;
+    height:45px;
+    background-color: rgb(244, 46, 46);
+}

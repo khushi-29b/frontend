@@ -1,0 +1,79 @@
+.first{
+    width: 800px;
+    height: 50px;
+    background-color: rgb(rgb(247, 150, 221), green, blue);
+    color: rgba(255, 0, 0,1);
+    background-color:blue;
+     border: 2px solid black;
+}
+.second{
+    width: 50%;  
+    height: 50%;
+    background-color: hsl(134, 86%, 61%);
+    color: white; 
+    border: 5px dotted black; 
+}
+.third{
+    width: 50%;  
+    height: 50%;
+    background-color: hsl(134, 86%, 61%);
+    color: white; 
+    border: 5px dashed black; 
+}
+.fourth{
+    width: 50%;  
+    height: 50%;
+    background-color: hsl(134, 86%, 61%);
+    color: white; 
+    border: 5px double black; 
+}
+.fifth{
+    width: 50%;  
+    height: 50%;
+    background-color: hsl(134, 86%, 61%);
+    color: white; 
+    border: 5px groove  black; 
+}
+.sixth{
+    width: 50%;  
+    height: 50%;
+    background-color: hsl(134, 86%, 61%);
+    color: white; 
+    border: 5px ridge  black; 
+}
+.seventh{
+    width: 50%;  
+    height: 50%;
+    background-color: hsl(134, 86%, 61%);
+    color: white; 
+    border: 5px inset black; 
+}
+.eigth{
+    width: 50%;  
+    height: 50%;
+    background-color: hsl(134, 86%, 61%);
+    color: white; 
+    border: 5px outset black; 
+}
+.ninth{
+    width: 50%;  
+    height: 50%;
+    background-color: hsl(134, 86%, 61%);
+    color: white; 
+    border: 5px none  black; 
+}
+.tenth{
+    width: 50%;  
+    height: 50%;
+    background-color: hsl(134, 86%, 61%);
+    color: white; 
+    border: 5px hidden  black; 
+}
+.eleventh{
+    width: 50%;  
+    height: 50%;
+    background-color: hsl(134, 86%, 61%);
+    color: white; 
+    border-style: dotted dashed none double; 
+    border: 2px black
+}
