@@ -4,7 +4,6 @@
     padding: 10px;
     background-color:rgb(253, 251, 251);
     border: 1px solid black;
-     /* align-items: flex-end; */
      border-radius: 15px;
 }
 .inner1{
@@ -112,6 +111,5 @@ width: 200px;
     padding: 10px;
     background-color:rgb(253, 251, 251);
     border: 1px solid black;
-     /* align-items: flex-end; */
       border-radius: 15px;
 }
