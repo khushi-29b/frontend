@@ -35,10 +35,10 @@ c=c-d;
 console.log("c=4 and d=9 after swap c=",c,"d=",d);
 console.log(" Enter the four Digits no. through the Keyboard? WAP to find the sum of its first and last Digit. ");
 var n=4523;
-var fd=n/1000,ld=n%10;
+var fd=parseInt(n/1000),ld=n%10;
 console.log("n=",n,"sum of first and last is",fd+ld);
 console.log("Enter the four Digits no. through the Keyboard? WAP to find the sum of its Middle two Digits.");
-var md1=(n/100)%10,md2=(n/10)%10;
+var md1=(parseInt)((n/100)%10),md2=(n/10)%10;
 console.log("n=",n,"sum of middle 2 digit is",md1+md2);
 console.log(" Enter the four Digits no. through the Keyboard? WAP to find the sum of its all digits. ");
 console.log("n=",n,"sum of all digit=",fd+md1+md2+ld);
@@ -48,8 +48,8 @@ console.log(". If a five-digit number is input through the keyboard, write a pro
 console.log("n=",n,"n by adding 1 to each digit",n+1111);
 console.log(". A cashier has currency notes of denominations 10, 50 and 100. If the amount to be withdrawn is input through the keyboard in hundreds, find the total number of currency notes of each denomination the cashier will have to give to the withdrawer.");
 var amount=999;
-var hnote=amount/100;
-var fnote=(amount-hnote*100)/50;
-var tnote=(amount-hnote*100-fnote*50)/10;
+var hnote=parseInt(amount/100);
+var fnote=parseInt((amount-hnote*100)/50);
+var tnote=parseInt((amount-hnote*100-fnote*50)/10);
 console.log("amount is",amount,"100s note=",hnote,"50s note=",fnote,"10s note=",tnote);
 
