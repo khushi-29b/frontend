@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <center>
+         <div><input class="inputbox" id="value1" type="number">
+    <input class="inputbox" id="value2" type="number">
+    <button class="inputbox" onclick="inputclear()">C</button>
+
+</div>
+        <div class="sign">
+             <div class="box"><h1><button id="input7" onclick="input7()">7</button></h1></div>
+             <div class="box"><h1><button onclick="input4()">4</button></h1></div>
+             <div class="box"><h1><button onclick="input1()">1</button></h1></div>
+             <div class="box"><h1><button onclick="input0()">0</button></h1></div>
+    </div>
+     <div class="sign">
+            <div class="box"><h1><button onclick="input8()">8</button></h1></div>
+             <div class="box"><h1><button onclick="input5()">5</button></h1></div>
+             <div class="box"><h1><button onclick="input2()">2</button></h1></div>
+             <div class="box"><h1><button onclick="inputdot()">.</button></h1></div>
+    </div>
+     <div class="sign">
+            <div class="box"><h1><button onclick="input9()">9</button></h1></div>
+             <div class="box"><h1><button onclick="input6()">6</button></h1></div>
+             <div class="box"><h1><button onclick="input3()">1</button></h1></div>
+             <div class="box"><h1><button onclick="inputadd()">+</button></h1></div>
+    </div>
+     <div class="sign">
+            <div class="box"><h1><button onclick="inputdiv()">/</button></h1></div>
+             <div class="box"><h1><button onclick="inputmul()">X</button></h1></div>
+             <div class="box"><h1><button onclick="inputsub()">-</button></h1></div>
+             <div class="box"><h1><button onclick="inputequal()">=</button></h1></div>
+    </center>
+    </div>
+</body>
+<script>
+    function input0()
+    {
+        document.write(0);
+    }
+     function input1()
+    {
+        document.write(1);
+    }
+     function input2()
+    {
+        document.write(2);
+    }
+     function input3()
+    {
+        document.write(3);
+    }
+     function input4()
+    {
+        document.write(4);
+    } function input5()
+    {
+        document.write(5);
+    } function input6()
+    {
+        document.write(6);
+    } function input7()
+    {
+       document.write(7);
+    } function input8()
+    {
+        document.write(8);
+    }
+     function input9()
+    {
+        document.write(9);
+    }
+    function inputdot()
+    {
+        document.write(".");
+    }
+
+     function inputadd()
+    {
+        var a=parseInt(document.getElementById("value1").value);
+         var b=parseInt(document.getElementById("value2").value);
+         document.write(a+b);
+    }
+    function inputsub()
+    {
+        var a=parseInt(document.getElementById("value1").value);
+         var b=parseInt(document.getElementById("value2").value);
+         document.write(a-b);
+    }
+    function inputmul()
+    {
+        var a=parseInt(document.getElementById("value1").value);
+         var b=parseInt(document.getElementById("value2").value);
+         document.write(a*b);
+    }
+    function inputdiv()
+    {
+        var a=parseInt(document.getElementById("value1").value);
+         var b=parseInt(document.getElementById("value2").value);
+         document.write(a/b);
+    }
+    function inputclear()
+    {
+        document.write(" ");
+    }
+</script>
+</html>
