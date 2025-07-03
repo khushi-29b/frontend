@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    </link>
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <table align="center" class="table">
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" id="fname" onkeyup="checkfname()"></td>
+            <td>
+                <div id="firstname" class="verification"></div>
+            </td>
+        </tr>
+        <tr>
+            <td> Last Name</td>
+            <td><input type="text" id="lname" onkeyup="checklname()"></td>
+            <td>
+                <p id="lastname" class="verification"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Mobile No.</td>
+            <td><input type="number" id="mob" onkeyup="checkmob()"></td>
+            <td>
+                <p id="no" class="verification"></p>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" id="email" onkeyup="chectmail()"></td>
+            <td>
+                <p id="mail" class="verification"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" id="pass" onkeyup="pass()"></td>
+            <td>
+                <p id="len"></p>
+                <p id="cap"></p>
+                <p id="small"></p>
+                <p id="number"></p>
+                <p id="spchar"></p>
+            </td>
+        </tr>
+    </table><br>
+    <center><button type="submit"id="sub">Submit</button></center>
+</body>
+
+</html>

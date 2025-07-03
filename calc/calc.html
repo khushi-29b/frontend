@@ -8,6 +8,7 @@
 </head>
 <body>
     <center>
+        <input id="result">
          <div><input class="inputbox" id="value1" type="number">
     <input class="inputbox" id="value2" type="number">
     <button class="inputbox" onclick="inputclear()">C</button>
@@ -42,72 +43,72 @@
 <script>
     function input0()
     {
-        document.write(0);
+        document.getElementById("result").value +="0";
     }
      function input1()
     {
-        document.write(1);
+      document.getElementById("result").value +="1";
     }
      function input2()
     {
-        document.write(2);
+       document.getElementById("result").value +="2";
     }
      function input3()
     {
-        document.write(3);
+        document.getElementById("result").value +="3";
     }
      function input4()
     {
-        document.write(4);
+        document.getElementById("result").value +="4";
     } function input5()
     {
-        document.write(5);
+        document.getElementById("result").value +="5";
     } function input6()
     {
-        document.write(6);
+        document.getElementById("result").value+="6";
     } function input7()
     {
-       document.write(7);
+       document.getElementById("result").value +="7";
     } function input8()
     {
-        document.write(8);
+       document.getElementById("result").value +="8";
     }
      function input9()
     {
-        document.write(9);
+        document.getElementById("result").value +="9";
     }
     function inputdot()
     {
-        document.write(".");
+       document.getElementById("result").value +=".";
     }
 
      function inputadd()
     {
         var a=parseInt(document.getElementById("value1").value);
          var b=parseInt(document.getElementById("value2").value);
-         document.write(a+b);
+         document.getElementById("result").value =a+b;
     }
     function inputsub()
     {
         var a=parseInt(document.getElementById("value1").value);
          var b=parseInt(document.getElementById("value2").value);
-         document.write(a-b);
+         document.getElementById("result").value=a-b;
     }
     function inputmul()
     {
         var a=parseInt(document.getElementById("value1").value);
          var b=parseInt(document.getElementById("value2").value);
-         document.write(a*b);
+         document.getElementById("result").value =a*b;
     }
     function inputdiv()
     {
         var a=parseInt(document.getElementById("value1").value);
          var b=parseInt(document.getElementById("value2").value);
-         document.write(a/b);
+         document.getElementById("result").value =a/b;
     }
     function inputclear()
     {
-        document.write(" ");
+        document.getElementById("result").value =" ";
     }
 </script>
 </html>
